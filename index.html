@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClinicFlow AI — AI Patient Intake & Booking System</title>
+  <meta name="description" content="ClinicFlow AI - Automate your clinic’s patient booking, reminders, and follow-ups with AI. Reduce no-shows and save time." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom fonts and tweaks */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1,h2,h3,h4 {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Scrollbar for gallery */
+    .gallery-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+    .gallery-scroll::-webkit-scrollbar-thumb {
+      background: #3b82f6;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center space-x-2">
+        <div class="bg-blue-600 text-white font-bold text-xl rounded-lg px-3 py-1">CF</div>
+        <span class="font-bold text-xl tracking-wide">ClinicFlow <span class="text-blue-600">AI</span></span>
+      </a>
+      <div class="space-x-4">
+        <a href="#pricing" class="text-slate-700 hover:text-blue-600 font-semibold">Pricing</a>
+        <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-blue-700 transition">Book Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+    <div class="md:w-1/2 space-y-6">
+      <h1 class="text-4xl font-extrabold leading-tight">
+        Automate Bookings.<br/>
+        Reduce No-Shows.<br/>
+        Improve Patient Experience.
+      </h1>
+      <p class="text-lg text-slate-700 max-w-md">
+        ClinicFlow AI sets up your virtual front desk in <span class="font-semibold text-blue-600">3 days</span>. Save 5+ admin hours/week and cut no-shows by up to 25%.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a href="#" id="calendly-hero" class="bg-blue-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition">📅 Book Free 15-min Demo</a>
+        <a href="#" id="whatsapp-hero" class="border border-blue-600 text-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-blue-50 transition">💬 WhatsApp Us</a>
+      </div>
+      <ul class="flex flex-wrap gap-6 mt-6 text-slate-600">
+        <li class="flex items-center gap-2">✅ Real-time booking</li>
+        <li class="flex items-center gap-2">✅ SMS & WhatsApp reminders</li>
+        <li class="flex items-center gap-2">✅ Google Calendar integration</li>
+      </ul>
+    </div>
+    <div class="md:w-1/2 max-w-lg">
+      <img src="https://cdn.dribbble.com/users/726703/screenshots/4300274/booking-app-dribbble.gif" alt="Patient booking mockup" class="rounded-xl shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="bg-white shadow-inner py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Why manual booking costs you more than you think</h2>
+      <div class="grid md:grid-cols-3 gap-10 max-w-4xl mx-auto text-slate-700">
+        <div class="space-y-4">
+          <div class="text-5xl">⏳</div>
+          <h3 class="text-xl font-semibold">Lost time</h3>
+          <p>Staff spend hours scheduling and chasing confirmations instead of care.</p>
+        </div>
+        <div class="space-y-4">
+          <div class="text-5xl">📅</div>
+          <h3 class="text-xl font-semibold">Missed slots</h3>
+          <p>No-shows and cancellations reduce revenue and disrupt clinic flow.</p>
+        </div>
+        <div class="space-y-4">
+          <div class="text-5xl">😔</div>
+          <h3 class="text-xl font-semibold">Frustrated patients</h3>
+          <p>Poor booking experiences push patients away to competitors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl font-bold mb-6">Meet <span class="text-blue-600">ClinicFlow AI</span> — your virtual front desk</h2>
+      <ul class="list-disc list-inside space-y-3 text-slate-700 max-w-md">
+        <li>Patients self-book online in real-time</li>
+        <li>Automated SMS & WhatsApp reminders</li>
+        <li>Instant rebooking for no-shows</li>
+        <li>Integrates with Google Calendar & common tools</li>
+        <li>Setup in just 3 days — we do it for you</li>
+      </ul>
+    </div>
+    <div class="space-y-4">
+      <img src="https://cdn.dribbble.com/users/44054/screenshots/16853089/media/94a8d61a2a34b9c42c3eaa87a4b4c234.png" alt="Intake form screenshot" class="rounded-lg shadow-lg" />
+      <p class="text-center text-slate-500 text-sm">Intake Form Preview</p>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">How it works — live in 3 days</h2>
+      <div class="flex flex-col md:flex-row justify-center gap-10 max-w-4xl mx-auto">
+        <div class="flex-1 bg-blue-50 rounded-xl p-8 shadow-md">
+          <div class="text-4xl font-bold text-blue-600 mb-4">1</div>
+          <h3 class="font-semibold mb-2">Day 1</h3>
+          <p>Connect your calendar & intake form.</p>
+        </div>
+        <div class="flex-1 bg-blue-50 rounded-xl p-8 shadow-md">
+          <div class="text-4xl font-bold text-blue-600 mb-4">2</div>
+          <h3 class="font-semibold mb-2">Day 2</h3>
+          <p>Configure AI reminders & rebooking logic.</p>
+        </div>
+        <div class="flex-1 bg-blue-50 rounded-xl p-8 shadow-md">
+          <div class="text-4xl font-bold text-blue-600 mb-4">3</div>
+          <h3 class="font-semibold mb-2">Day 3</h3>
+          <p>Go live and reduce no-shows.</p>
+        </div>
+      </div>
+      <div class="mt-12 max-w-xl mx-auto">
+        <img src="https://cdn.dribbble.com/users/1123047/screenshots/6488645/n8n-workflow.gif" alt="n8n workflow preview" class="rounded-lg shadow-lg" />
+        <p class="text-center text-slate-500 mt-2 text-sm">n8n Workflow Preview</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="max-w-7xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-12 text-center">See ClinicFlow AI in action</h2>
+    <div class="overflow-x-auto gallery-scroll flex gap-6 px-4">
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="Intake form preview">
+        <img src="https://cdn.dribbble.com/users/44054/screenshots/16853089/media/94a8d61a2a34b9c42c3eaa87a4b4c234.png" alt="Intake form" class="w-full" />
+      </div>
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="n8n workflow preview">
+        <img src="https://cdn.dribbble.com/users/1123047/screenshots/6488645/n8n-workflow.gif" alt="n8n workflow" class="w-full" />
+      </div>
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="Booking reminder message example">
+        <img src="https://cdn.dribbble.com/users/601252/screenshots/17979190/message-reminder.png" alt="Booking message example" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-white py-16 shadow-inner">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+      <h2 class="text-3xl font-bold">What Our Clients Say</h2>
+      <blockquote class="italic text-lg text-slate-700 max-w-3xl mx-auto">
+        “No-shows dropped from 18% to 5% in just 2 weeks. The system runs on autopilot, and my staff finally has time for real patient care.”<br/>
+        <span class="font-semibold">— Dr. Sarah A.</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-8">One-time setup — live in 3 days</h2>
+    <div class="inline-block bg-white rounded-xl shadow-lg p-10 max-w-sm mx-auto">
+      <div class="text-5xl font-extrabold text-blue-600 mb-4">$499</div>
+      <div class="text-sm text-slate-600 mb-6">One-time setup fee</div>
+      <ul class="text-left mb-6 space-y-3 text-slate-700 list-disc list-inside max-w-xs mx-auto">
+        <li>Real-time booking page</li>
+        <li>SMS & WhatsApp reminders</li>
+        <li>No-show follow-up automation</li>
+        <li>14 days post-launch support</li>
+      </ul>
+      <a href="#" id="price-book" class="block bg-blue-600 text-white font-semibold rounded-md px-8 py-3 hover:bg-blue-700 transition">Book Your Free Demo</a>
+      <a href="#" class="inline-block mt-4 text-blue-600 hover:underline font-medium">Free 30-min Consultation</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-20">
+    <div class="bg-blue-600 rounded-xl shadow-lg p-12 text-center text-white">
+      <h2 class="text-3xl font-bold mb-6">Ready to reduce no-shows?</h2>
+      <p class="mb-8 max-w-xl mx-auto">Book a free 15-min demo or message us on WhatsApp and we’ll show you a live walkthrough of ClinicFlow AI in action.</p>
+      <div class="flex flex-col md:flex-row justify-center gap-6 max-w-sm mx-auto">
+        <a href="#" id="contact-book" class="bg-white text-blue-600 font-semibold rounded-md px-8 py-3 hover:bg
