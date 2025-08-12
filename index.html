@@ -7,14 +7,12 @@
   <meta name="description" content="ClinicFlow AI - Automate your clinic’s patient booking, reminders, and follow-ups with AI. Reduce no-shows and save time." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Custom fonts and tweaks */
     body {
       font-family: 'Inter', sans-serif;
     }
     h1,h2,h3,h4 {
       font-family: 'Poppins', sans-serif;
     }
-    /* Scrollbar for gallery */
     .gallery-scroll::-webkit-scrollbar {
       height: 8px;
     }
@@ -103,8 +101,8 @@
       </ul>
     </div>
     <div class="space-y-4">
-      <img src="https://cdn.dribbble.com/users/44054/screenshots/16853089/media/94a8d61a2a34b9c42c3eaa87a4b4c234.png" alt="Intake form screenshot" class="rounded-lg shadow-lg" />
-      <p class="text-center text-slate-500 text-sm">Intake Form Preview</p>
+      <img src="assets/patient-data.png" alt="Patient Data Screenshot" class="rounded-lg shadow-lg" />
+      <p class="text-center text-slate-500 text-sm">Patient Data Preview</p>
     </div>
   </section>
 
@@ -130,7 +128,7 @@
         </div>
       </div>
       <div class="mt-12 max-w-xl mx-auto">
-        <img src="https://cdn.dribbble.com/users/1123047/screenshots/6488645/n8n-workflow.gif" alt="n8n workflow preview" class="rounded-lg shadow-lg" />
+        <img src="assets/workflow-preview.gif" alt="n8n workflow preview" class="rounded-lg shadow-lg" />
         <p class="text-center text-slate-500 mt-2 text-sm">n8n Workflow Preview</p>
       </div>
     </div>
@@ -140,14 +138,17 @@
   <section class="max-w-7xl mx-auto px-6 py-20">
     <h2 class="text-3xl font-bold mb-12 text-center">See ClinicFlow AI in action</h2>
     <div class="overflow-x-auto gallery-scroll flex gap-6 px-4">
-      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="Intake form preview">
-        <img src="https://cdn.dribbble.com/users/44054/screenshots/16853089/media/94a8d61a2a34b9c42c3eaa87a4b4c234.png" alt="Intake form" class="w-full" />
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0">
+        <img src="assets/intake-form.png" alt="Intake form" class="w-full" />
       </div>
-      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="n8n workflow preview">
-        <img src="https://cdn.dribbble.com/users/1123047/screenshots/6488645/n8n-workflow.gif" alt="n8n workflow" class="w-full" />
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0">
+        <img src="assets/workflow-preview.gif" alt="Workflow preview" class="w-full" />
       </div>
-      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0" aria-label="Booking reminder message example">
-        <img src="https://cdn.dribbble.com/users/601252/screenshots/17979190/message-reminder.png" alt="Booking message example" class="w-full" />
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0">
+        <img src="assets/message-reminder.png" alt="Booking message example" class="w-full" />
+      </div>
+      <div class="flex-shrink-0 w-72 rounded-lg shadow-lg overflow-hidden cursor-pointer" tabindex="0">
+        <img src="assets/patient-data.png" alt="Patient data example" class="w-full" />
       </div>
     </div>
   </section>
@@ -186,4 +187,11 @@
       <h2 class="text-3xl font-bold mb-6">Ready to reduce no-shows?</h2>
       <p class="mb-8 max-w-xl mx-auto">Book a free 15-min demo or message us on WhatsApp and we’ll show you a live walkthrough of ClinicFlow AI in action.</p>
       <div class="flex flex-col md:flex-row justify-center gap-6 max-w-sm mx-auto">
-        <a href="#" id="contact-book" class="bg-white text-blue-600 font-semibold rounded-md px-8 py-3 hover:bg
+        <a href="#" id="contact-book" class="bg-white text-blue-600 font-semibold rounded-md px-8 py-3 hover:bg-blue-100 transition">Book Demo</a>
+        <a href="#" id="contact-whatsapp" class="bg-green-500 text-white font-semibold rounded-md px-8 py-3 hover:bg-green-600 transition">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
